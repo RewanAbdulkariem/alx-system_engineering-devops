@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Current User: $USER"
+echo "$USER"
