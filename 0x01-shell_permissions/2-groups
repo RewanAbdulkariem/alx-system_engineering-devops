@@ -1,2 +1,2 @@
 #!/bin/bash
-su -c "groups $(whoami)"
+su -c "groups $(whoami) | awk '{print \$1}'"
