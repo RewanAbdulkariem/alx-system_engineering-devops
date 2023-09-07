@@ -1,0 +1,7 @@
+#!/bin/bash
+ls -axmp
+
+#-a: This option includes hidden files and directories in the listing
+#-x: This option forces ls to list entries in columns, sorting by rows instead of horizontally.
+#-m: This option displays the names as a comma-separated list.
+#-p: This option adds a trailing slash (/) to directory names, making it easier to distinguish directories from regular files.
