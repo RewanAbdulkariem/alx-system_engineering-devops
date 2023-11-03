@@ -1,6 +1,3 @@
 #!/usr/bin/env ruby
-if ARGV[0].match(/School/) 
-    puts "School"
-else
-    puts ""
-end
+# The regular expression must match School
+puts ARGV[0].scan(/School/).join
